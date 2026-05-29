@@ -1,0 +1,33 @@
+Variable
+    data types
+        string
+        integer
+        float
+        boolean
+
+Input is always string (type cast)
+
+using simple string transform like (.strip & .title)
+
+F-string
+    first = "Data"
+    last = "Engineer"
+    full_name = f"{first} {last}"
+
+Math operation
+    add
+    subtract
+    multiply
+    divide
+
+Logical operation
+    ==
+    >=
+    <=
+    !=
+
+Validation
+
+Looping
+    For
+    While
