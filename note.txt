@@ -33,4 +33,9 @@ git init
 git add .
 git commit -m "remarks on the folder project"
 
-git push -u origin main
+git pull origin main --rebase
+
+git push -u origin main 
+
+
+ssh-keygen -t rsa -b 4096 -C "neilssibug@gmail.com"
