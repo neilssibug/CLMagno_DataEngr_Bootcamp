@@ -1,0 +1,36 @@
+Typical Team Workflow
+Clone repo
+Create branch
+Make changes
+Commit changes
+Push branch
+Open Pull Request
+Review & merge
+
+================================================
+
+git clone https://github.com/username/repo.git
+
+================================================
+
+mkdir myproject
+cd myproject
+
+git init
+
+echo "Hello Git" > readme.txt
+
+git add .
+git commit -m "first commit"
+
+================================================
+
+mkdir [directory_name]
+cd [directory_name]
+
+git init
+
+git add .
+git commit -m "remarks on the folder project"
+
+git push -u origin main
