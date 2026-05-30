@@ -118,9 +118,15 @@ while choice != "X" :
         while in_choice != "y":
             print("Looping:\n")
 
-            for i in range(10):
-                if i % 2:
-                    print(i)
+            limit = int(input("Input a number greater than 0 and less than 100: "))
+
+
+            if (limit > 0 and limit < 100):
+                for i in range(limit):
+                    if i % 2:
+                        print(i)
+            else:
+                print("Invalid input!")
         
             in_choice = input("\nBack: (y/n): ").lower()
 
