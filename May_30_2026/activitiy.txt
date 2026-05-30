@@ -1,0 +1,7 @@
+create a cli calculator
+
+using math operation
+
+validate if it is a valid inputs
+
+using functions and imports
